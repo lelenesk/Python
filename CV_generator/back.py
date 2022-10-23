@@ -9,7 +9,7 @@ title = "Gerbovics Tamás - CV"
 class PDF(FPDF):
     def __init__(self, **kwargs):
         super(PDF,self).__init__(**kwargs)
-        self.add_font('delo', "", r"D:\PROGRAM\GIT\PublicRepo\Python\CV_generator\src\Roboto-Regular.ttf",
+        self.add_font('delo', "", r"src\Roboto-Regular.ttf",
                       uni=True)
 
     def header(self):
